@@ -57,12 +57,12 @@ def main():
     member = LibraryMember("Alice", 1)
 
     
-    member.borrow_book(book1)   # Alice borrows The Great Gatsby
-    member.borrow_book(book2)   # Alice borrows 1984
-    member.borrow_book(book1)   # Attempt to borrow The Great Gatsby again
+    member.borrow_book(book1)   # Alice borrows Diary of a Wimpy Kid
+    member.borrow_book(book2)   # Alice borrows Goosebumps
+    member.borrow_book(book1)   # Attempt to borrow Diary of a Wimpy Kid again
     member.list_borrowed_books() # List Alice's borrowed books
 
-    member.return_book(book1)   # Alice returns The Great Gatsby
+    member.return_book(book1)   # Alice returns Diary of a Wimpy kid
     member.return_book(book3)   # Attempt to return a book not borrowed
     member.list_borrowed_books() # List Alice's borrowed books
 
